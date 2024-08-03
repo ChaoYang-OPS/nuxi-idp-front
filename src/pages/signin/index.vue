@@ -5,6 +5,7 @@
 <script setup lang="ts">
 definePageMeta({
   layout: 'blank',
+  colorMode: 'light',
 })
 useHead({
   title: '用户登录',

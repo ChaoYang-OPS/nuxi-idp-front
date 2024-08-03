@@ -15,5 +15,8 @@ export default defineNuxtConfig({
       appName: '开发者平台',
     }
   },
+  colorMode: {
+
+  },
   compatibilityDate: '2024-07-28'
 })
