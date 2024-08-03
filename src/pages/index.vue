@@ -4,9 +4,7 @@
 
 const hello=()=> {
   // toast.add({title:"Hello World!"})
-  console.log("Hello ")
   useToast().add({title: "登录成功"})
-  console.log("world")
 }
 
 </script>
