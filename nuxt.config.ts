@@ -6,6 +6,10 @@ export default defineNuxtConfig({
   srcDir: "src",
   modules: ['@nuxt/ui','@pinia/nuxt'],
 
+  pinia: {
+    storesDirs: ['./src/stores/**'],
+  },
+
   // ssr: false
   ui: {
     icons: ['solar', 'ri'],
